@@ -8,8 +8,8 @@ public class Factorial_Program {
 	
 		int n,fact = 1;
 		System.out.println("Enter an integer to calculate it's factorial");
-		Scanner in = new Scanner(System.in);
-		n = in.nextInt();
+Scanner s=new Scanner(System.in);
+		n = s.nextInt();
 
 			for ( int c = 1 ; c <= n ; c++ )
 				fact = fact*c;
