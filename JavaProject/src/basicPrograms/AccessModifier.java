@@ -19,9 +19,10 @@ class Access
 		int b=100;
 		System.out.println(b);
 	}
-	void ABCD()
+	void ABCD(int a)
 	{
 		int b=100;
+		System.out.println(a);
 	}
 }
 
@@ -39,6 +40,7 @@ Access ac=new Access();
 ac.A();
 /*ac.AV();*/
 ac.AVD();
+ac.ABCD(20);
 
 
 
