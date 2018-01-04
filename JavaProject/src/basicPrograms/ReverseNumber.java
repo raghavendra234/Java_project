@@ -23,9 +23,11 @@ public class ReverseNumber {
 	          
 	          n = n/10;
 	          System.out.println("value finally"+n);
+		      System.out.println("Reverse of entered number is "+reverse);
+
 
 	      }
-	 
 	      System.out.println("Reverse of entered number is "+reverse);
+	 
 	   }
 	}
