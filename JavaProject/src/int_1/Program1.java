@@ -1,3 +1,7 @@
+
+/*Question:Write a program for even number and print the even number */
+
+
 package int_1;
 
 public class Program1 {
