@@ -18,7 +18,7 @@ public class Program1 {
 			}
 			
 		}
-	System.out.println(sum);
+	System.out.println("the sum of the even number is :"+sum);
     	}
 
 }
