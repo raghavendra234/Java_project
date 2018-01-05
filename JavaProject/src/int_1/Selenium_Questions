@@ -1,0 +1,23 @@
+Question:1:implict wait and explicit wait
+
+
+Syntax:
+Implicit wait:driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);	
+
+Explicit wait:WebDriverWait wait = new WebDriverWait(WebDriverRefrence,TimeOut);
+
+
+Question:2:How to handle n number of window in selenium
+
+with the help of size of the window 
+
+
+Ex:
+set<window>window=driver.getwindowHandle();//parent window
+window=driver.getWindowHandles();//get all window handles
+count=window.size();
+Question:3:How to handle alerts in java
+alert alert =new Alert()
+alert.accept();
+
+
