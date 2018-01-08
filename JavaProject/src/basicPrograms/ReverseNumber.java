@@ -17,12 +17,9 @@ public class ReverseNumber {
 	      {
 	    
 	      reverse = reverse * 10;
-	      System.out.println("revese"+reverse);
 	          reverse = reverse + n%10;
-	          System.out.println("revsere:"+reverse);
 	          
 	          n = n/10;
-	          System.out.println("value finally"+n);
 		     
 
 
